@@ -1,206 +1,344 @@
 [
-  {
-    "City": "Fortaleza",
-    "Title": "Seaview Penthouse in Fortaleza",
-    "Author": "Oceanfront Realty",
-    "Rooms": 4,
-    "Tags": [
-      "elevator",
-      "furniture",
-      "parking"
-    ],
-    "Price": 900000
-  },
-  {
-    "City": "Fortaleza",
-    "Title": "Modern Loft in Fortaleza",
-    "Author": "Cityscape Properties",
-    "Rooms": 1,
-    "Tags": [
-      "elevator",
-      "furniture"
-    ],
-    "Price": 300000
-  },
-  {
-    "City": "Fortaleza",
-    "Title": "Family-Friendly Apartment",
-    "Author": "Sunset Homes",
-    "Rooms": 3,
-    "Tags": [
-      "furniture",
-      "parking"
-    ],
-    "Price": 550000
-  },
-  {
-    "City": "Fortaleza",
-    "Title": "Resort-Style Living in Fortaleza",
-    "Author": "Tropical Real Estate",
-    "Rooms": 2,
-    "Tags": [
-      "elevator",
-      "furniture",
-      "parking"
-    ],
-    "Price": 700000
-  },
-  {
-    "City": "Fortaleza",
-    "Title": "Luxury Apartment in Fortaleza",
-    "Author": "Real Estate Company A",
-    "Rooms": 3,
-    "Tags": [
-      "elevator",
-      "furniture",
-      "parking"
-    ],
-    "Price": 500000
-  },
-  {
-    "City": "Fortaleza",
-    "Title": "Cozy Apartment in Fortaleza",
-    "Author": "Comfort Homes",
-    "Rooms": 2,
-    "Tags": [
-      "furniture",
-      "parking"
-    ],
-    "Price": 400000
-  },
-  {
-    "City": "Belo Horizonte",
-    "Title": "Hillside Villa in Belo Horizonte",
-    "Author": "Elevated Estates",
-    "Rooms": 5,
-    "Tags": [
-      "elevator",
-      "furniture",
-      "parking"
-    ],
-    "Price": 1200000
-  },
-  {
-    "City": "Belo Horizonte",
-    "Title": "Historic District Apartment",
-    "Author": "Heritage Homes",
-    "Rooms": 2,
-    "Tags": [
-      "furniture",
-      "parking"
-    ],
-    "Price": 400000
-  },
-  {
-    "City": "Belo Horizonte",
-    "Title": "Executive Suite in Belo Horizonte",
-    "Author": "Business Residences",
-    "Rooms": 3,
-    "Tags": [
-      "elevator",
-      "furniture"
-    ],
-    "Price": 600000
-  },
-  {
-    "City": "Belo Horizonte",
-    "Title": "Scenic View Condo",
-    "Author": "Vista Homes",
-    "Rooms": 4,
-    "Tags": [
-      "elevator",
-      "parking"
-    ],
-    "Price": 900000
-  },
-  {
-    "City": "Belo Horizonte",
-    "Title": "Cozy Apartment in Belo Horizonte",
-    "Author": "Urban Living Properties",
-    "Rooms": 3,
-    "Tags": [
-      "elevator",
-      "parking"
-    ],
-    "Price": 550000
-  },
-  {
-    "City": "Belo Horizonte",
-    "Title": "Downtown Penthouse in Belo Horizonte",
-    "Author": "City Center Residences",
-    "Rooms": 2,
-    "Tags": [
-      "furniture",
-      "parking"
-    ],
-    "Price": 700000
-  },
-  {
-    "City": "São Paulo",
-    "Title": "Sky-High Skyscraper Residence",
-    "Author": "Altitude Living",
-    "Rooms": 3,
-    "Tags": [
-      "elevator",
-      "furniture",
-      "parking"
-    ],
-    "Price": 1100000
-  },
-  {
-    "City": "São Paulo",
-    "Title": "Artistic Studio in São Paulo",
-    "Author": "Creative Spaces",
-    "Rooms": 1,
-    "Tags": [
-      "furniture"
-    ],
-    "Price": 350000
-  },
-  {
-    "City": "São Paulo",
-    "Title": "Tech Hub Apartment",
-    "Author": "Innovation Homes",
-    "Rooms": 2,
-    "Tags": [
-      "elevator",
-      "furniture",
-      "parking"
-    ],
-    "Price": 650000
-  },
-  {
-    "City": "São Paulo",
-    "Title": "Premium Downtown Condo",
-    "Author": "Metropolitan Realty",
-    "Rooms": 4,
-    "Tags": [
-      "elevator",
-      "parking"
-    ],
-    "Price": 850000
-  },
-  {
-    "City": "São Paulo",
-    "Title": "Modern Loft in São Paulo",
-    "Author": "Urban Innovators",
-    "Rooms": 2,
-    "Tags": [
-      "furniture",
-      "parking"
-    ],
-    "Price": 500000
-  },
-  {
-    "City": "São Paulo",
-    "Title": "City Center Penthouse",
-    "Author": "Downtown Living",
-    "Rooms": 3,
-    "Tags": [
-      "elevator",
-      "furniture"
-    ],
-    "Price": 700000
-  }
+	{
+		"City": "Fortaleza",
+		"Title": "Seaview Penthouse in Fortaleza",
+		"Author": "Oceanfront Realty",
+		"Rooms": 4,
+		"Tags": ["elevator", "furniture", "parking"],
+		"Price": 900000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			}
+		]
+	},
+	{
+		"City": "Fortaleza",
+		"Title": "Modern Loft in Fortaleza",
+		"Author": "Cityscape Properties",
+		"Rooms": 1,
+		"Tags": ["elevator", "furniture"],
+		"Price": 300000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "Fortaleza",
+		"Title": "Family-Friendly Apartment",
+		"Author": "Sunset Homes",
+		"Rooms": 3,
+		"Tags": ["furniture", "parking"],
+		"Price": 550000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			}
+		]
+	},
+	{
+		"City": "Fortaleza",
+		"Title": "Resort-Style Living in Fortaleza",
+		"Author": "Tropical Real Estate",
+		"Rooms": 2,
+		"Tags": ["elevator", "furniture", "parking"],
+		"Price": 700000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "Fortaleza",
+		"Title": "Luxury Apartment in Fortaleza",
+		"Author": "Real Estate Company A",
+		"Rooms": 3,
+		"Tags": ["elevator", "furniture", "parking"],
+		"Price": 500000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			}
+		]
+	},
+	{
+		"City": "Fortaleza",
+		"Title": "Cozy Apartment in Fortaleza",
+		"Author": "Comfort Homes",
+		"Rooms": 2,
+		"Tags": ["furniture", "parking"],
+		"Price": 400000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "Belo Horizonte",
+		"Title": "Hillside Villa in Belo Horizonte",
+		"Author": "Elevated Estates",
+		"Rooms": 5,
+		"Tags": ["elevator", "furniture", "parking"],
+		"Price": 1200000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			}
+		]
+	},
+	{
+		"City": "Belo Horizonte",
+		"Title": "Historic District Apartment",
+		"Author": "Heritage Homes",
+		"Rooms": 2,
+		"Tags": ["furniture", "parking"],
+		"Price": 400000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "Belo Horizonte",
+		"Title": "Executive Suite in Belo Horizonte",
+		"Author": "Business Residences",
+		"Rooms": 3,
+		"Tags": ["elevator", "furniture"],
+		"Price": 600000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			}
+		]
+	},
+	{
+		"City": "Belo Horizonte",
+		"Title": "Scenic View Condo",
+		"Author": "Vista Homes",
+		"Rooms": 4,
+		"Tags": ["elevator", "parking"],
+		"Price": 900000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "Belo Horizonte",
+		"Title": "Cozy Apartment in Belo Horizonte",
+		"Author": "Urban Living Properties",
+		"Rooms": 3,
+		"Tags": ["elevator", "parking"],
+		"Price": 550000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			}
+		]
+	},
+	{
+		"City": "Belo Horizonte",
+		"Title": "Downtown Penthouse in Belo Horizonte",
+		"Author": "City Center Residences",
+		"Rooms": 2,
+		"Tags": ["furniture", "parking"],
+		"Price": 700000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "São Paulo",
+		"Title": "Sky-High Skyscraper Residence",
+		"Author": "Altitude Living",
+		"Rooms": 3,
+		"Tags": ["elevator", "furniture", "parking"],
+		"Price": 1100000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			}
+		]
+	},
+	{
+		"City": "São Paulo",
+		"Title": "Artistic Studio in São Paulo",
+		"Author": "Creative Spaces",
+		"Rooms": 1,
+		"Tags": ["furniture"],
+		"Price": 350000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "São Paulo",
+		"Title": "Tech Hub Apartment",
+		"Author": "Innovation Homes",
+		"Rooms": 2,
+		"Tags": ["elevator", "furniture", "parking"],
+		"Price": 650000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/7ae3/1ff3/8d79af3e6685b622b28f52fcf5507d0e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i3q5rDVQy0nDpLeDVaI0mNbYgtrq9NnjMRPgPRWw4FTiLlW8rh9rdedF4pxb-8dWn1FKQ9gqtgSfKV3j033PV43K3P~a28Lz9063Y3DrvqKRZWYa6X7ap9Zed-0iZoBbS5Ga83RfapZcIvrqiHTW17VQne38iHt7w1H8A8CO1QItMgPmmMQ-yS9SCw0BO28~1wWbTJnHLkIAQ-EuGUx0mGvu4Pd56xiMuF9~xnhMO4S-vYG92YQrbHJDjaWG9pJNEanNtdp4MRjhp--9a83h-knENuu4NBoydWaZ6CVRzIfY8RCuKIrj3E4boGv51xsW0jekVL9tHtqkVhAgXFFTrA__"
+			}
+		]
+	},
+	{
+		"City": "São Paulo",
+		"Title": "Premium Downtown Condo",
+		"Author": "Metropolitan Realty",
+		"Rooms": 4,
+		"Tags": ["elevator", "parking"],
+		"Price": 850000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "São Paulo",
+		"Title": "Modern Loft in São Paulo",
+		"Author": "Urban Innovators",
+		"Rooms": 2,
+		"Tags": ["furniture", "parking"],
+		"Price": 500000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/5623/c692/877af8cca18cf6cd0e8fc2660e35abce?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hdo~SrlXELneQ58igr6ldvCMpjNyl7L5xicyDRCcOBIjq0jm9j~3n0xhnJcH1RlDe2Ee~rjiBX8BQkAcOztR0IuAJwPXBsExUlnASgIIGZuJ30RCZ6qus-L2P6thrA1k2jp1qdMO71ritr9tnIL0M-1kiDbP-cV20IavfghUNd2hRf~tSJTW4VQCKiy5HL2VFgP-XjI3SPhF9UiD0H5wdd6vn44ZAQTlrbaeCltB20-Bre7PbfUoNUVJRSvOZ-qaXVobIhaKtYmRcD7w0AexPkZCSJedFrWUHuxFkj8WHV-LBMCd2DESIjDjjZx9z54cqJaOWfl1IMsbrmnhz3QZAA__"
+			}
+		]
+	},
+	{
+		"City": "São Paulo",
+		"Title": "City Center Penthouse",
+		"Author": "Downtown Living",
+		"Rooms": 3,
+		"Tags": ["elevator", "furniture"],
+		"Price": 700000,
+		"Images": [
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			},
+			{
+				"url": "https://s3-alpha-sig.figma.com/img/3e0d/79c8/12d679f0b71c6b3acd8fa3206dbba218?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIM8-9l52IRZuHoRZyK2FPPJoipYAfD8noKRfdzU5cBJcmooqcYr7J231ygR4x6bcl5UVu2887I-DGDB5H5L3KmDZfk2WOOMNbSA1Spw~eG6dAbm4h49TCd1iuE5qNCl0PIA47OOYGQOF1S0JWEXZzXgB-YywXW9y1bUePdBcKd8OitWQPF12CJtDrg1Uiox-w7h-kgpWC21U-7lkbf3XaQZ17rPK2nYkr52qzsmMlZa8Pv2PDXj3rthiwB~rD4ZPT605vW-MTcc2q1TgFNB2DzJPtB4huIn9rHbkpDQy45jvjvH5sfcag5yDmiXHrV6clwXfzLYUhvwbdbkJA3Jmw__"
+			}
+		]
+	}
 ]
-
