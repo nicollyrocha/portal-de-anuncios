@@ -23,7 +23,7 @@ export const NovosAnuncios = ({
 	const navigationPrevRef = useRef(null);
 	const navigationNextRef = useRef(null);
 	const swiperRef = useRef<SwiperType>();
-	console.log(dadosParaBusca);
+
 	return (
 		<div className='w-8/12 flex flex-col items-center mt-10 gap-5'>
 			<div className='flex justify-between items-center w-full'>
