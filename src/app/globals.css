@@ -3,10 +3,16 @@
 @tailwind utilities;
 
 .search {
-	background-image: url('../images/banner-inicio.png');
+	background-image: url('../../public/images/banner-inicio.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+@media screen and (min-width: 1024px) {
+	.swiper-button-disabled {
+		display: none;
+	}
 }
 
 :root {

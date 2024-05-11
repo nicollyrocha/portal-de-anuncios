@@ -1,7 +1,6 @@
-import { Dispatch, SetStateAction, useEffect, useState } from 'react';
+import { Dispatch, SetStateAction, useState } from 'react';
 import { Select } from './select';
 import place from '../../assets/place.json';
-import { IPlaces } from '@/interfaces/places';
 
 export const Search = ({
 	localizacao,
@@ -11,7 +10,6 @@ export const Search = ({
 	tipoPropriedade,
 	setTipoPropriedade,
 	numeroQuartos,
-	dadosParaBusca,
 	setDadosParaBusca,
 }: {
 	localizacao: string;
@@ -21,11 +19,6 @@ export const Search = ({
 	tipoPropriedade: string;
 	setTipoPropriedade: Dispatch<SetStateAction<string>>;
 	numeroQuartos: number[];
-	dadosParaBusca: {
-		localizacao: string;
-		nQuartos: string;
-		tipoPropriedade: string;
-	};
 	setDadosParaBusca: Dispatch<
 		SetStateAction<{
 			localizacao: string;
@@ -54,11 +47,15 @@ export const Search = ({
 	};
 
 	return (
-		<div className='search w-full h-[640px] flex flex-col items-center gap-5 pt-[133px] mt-16'>
-			<div className='text-[34px] font-bold'>Vende. Aluga. Conecta.</div>
-			<div className='flex flex-row gap-3 rounded-full bg-white text-neutral-900 w-[771px] h-20 items-center'>
-				<div className='w-6/12 px-10 flex flex-col hover:bg-neutral-200 rounded-full h-full justify-center group ease-in-out duration-500 transition'>
-					<div className='flex flex-col jsutify-center gap-2'>
+		<div className='lg:w-full w-screen lg:bg-[url("../../public/images/banner-inicio.png")] bg-center lg:h-[640px] flex flex-col items-center lg:gap-5 lg:h-[640px] lg:pt-[133px] mt-16'>
+			<div className='bg-[url("../../public/images/banner-inicio.png")] py-10 bg-center bg-cover lg:bg-none lg:text-[34px] text-2xl flex flex-col justify-center h-full lg:h-fit pl-20 lg:pl-0 font-bold lg:flex lg:flex-row lg:gap-3 w-screen lg:w-full'>
+				<div>Vende.</div>
+				<div>Aluga.</div>
+				<div>Conecta.</div>
+			</div>
+			<div className='mt-10 lg:mt-10 flex flex-col lg:items-center lg:flex lg:flex-row gap-5 lg:gap-3 rounded-none lg:rounded-full lg:bg-white text-neutral-900 lg:w-[771px] lg:h-20'>
+				<div className='bg-white lg:bg-transparent border rounded-lg lg:rounded-full py-2 lg:py-0 border-neutral-200 lg:border-none lg:w-6/12 flex flex-col hover:bg-neutral-200 h-full justify-center group ease-in-out duration-500 px-5'>
+					<div className='flex flex-col justify-center gap-2 lg:w-fit'>
 						<div className='flex flex-row items-center gap-2'>
 							<div className='material-icons-outlined text-neutral-400'>
 								location_on
@@ -74,10 +71,10 @@ export const Search = ({
 						/>
 					</div>
 				</div>
-				<hr className='border border-l-1 border-neutral-200 border-solid h-[50%] text-neutral-500' />
-				<div className='w-6/12 pl-3 pr-3 flex flex-row justify-between items-center gap-2 h-full group hover:bg-neutral-200 rounded-full ease-in-out duration-500 transition'>
+				<hr className='hidden lg:flex border border-l-1 border-neutral-200 border-solid h-[50%] text-neutral-500' />
+				<div className='lg:w-6/12 w-full lg:pl-3 lg:pr-3 flex flex-col lg:flex-row lg:justify-between items-center gap-2 h-full group lg:hover:bg-neutral-200 rounded-lg lg:rounded-full ease-in-out duration-500 transition abs'>
 					<div
-						className='w-full px-5 flex flex-col gap-2  rounded-full justify-center h-full cursor-pointer'
+						className='py-2 lg:py-0 lg:px-5 flex flex-col gap-2 rounded-lg lg:rounded-full lg:justify-center h-full cursor-pointer border border-neutral-200 lg:border-none px-5 hover:bg-neutral-200 ease-in-out duration-500 transition w-full'
 						onClick={() => setOpenQuartos(!openQuartos)}
 					>
 						<div className='flex gap-2'>
@@ -99,15 +96,18 @@ export const Search = ({
 								tipoPropriedade: tipoPropriedade ? tipoPropriedade : 'todos',
 							})
 						}
-						className='rounded-full bg-[#ED672B] hover:bg-orange-600 p-5 px-5 flex items-center justify-between gap-2 ease-in-out duration-500 transition'
+						className='w-full lg:w-fit rounded-lg lg:rounded-full bg-[#ED672B] hover:bg-orange-600 p-3 lg:p-5 px-5 flex items-center justify-center lg:justify-between gap-2 ease-in-out duration-500 transition'
 					>
 						<span className='material-icons-outlined text-white'>search</span>
 
 						{localizacao ? (
-							<div className='text-white font-semibold'>Buscar</div>
+							<div className='text-white font-semibold hidden lg:flex'>Buscar</div>
 						) : (
 							''
 						)}
+						<div className='text-white font-semibold flex lg:hidden'>
+							Buscar Imóveis
+						</div>
 					</button>
 				</div>
 			</div>
@@ -118,7 +118,7 @@ export const Search = ({
 						openQuartos === true
 							? 'max-h-40 animate-openmenu opacity-100'
 							: 'max-h-0 animate-closemenu opacity-0'
-					} w-full flex flex-row justify-between`}
+					} w-full flex flex-row justify-between mr-[100%] lg:mr-0 abosulte`}
 				>
 					<div className='w-6/12'></div>
 					<div className='w-6/12 px-7'>

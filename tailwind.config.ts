@@ -8,11 +8,6 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
-			backgroundImage: {
-				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'gradient-conic':
-					'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-			},
 			animation: {
 				openmenu: 'openmenu 1s ease-in',
 				closemenu: 'closemenu 1s ease-in',
@@ -30,6 +25,10 @@ const config: Config = {
 					// final position
 					'100%': { opacity: '0%' },
 				},
+			},
+			backgroundImage: {
+				'search-banner':
+					"url('https://proxis.com.br/wp-content/uploads/2019/02/mulher-sorrindo-no-parque.jpg')",
 			},
 		},
 	},

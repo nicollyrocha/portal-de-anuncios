@@ -23,7 +23,7 @@ export const CardFlats = ({
 	const OPTIONS: EmblaOptionsType = {};
 
 	return (
-		<div className='bg-white border border-solid border-neutral-400 rounded-lg gap-2 flex flex-col items-start w-[294px]'>
+		<div className='bg-white border border-solid border-neutral-400 rounded-lg gap-2 flex flex-col items-start w-72'>
 			<EmblaCarousel slides={SLIDES} options={OPTIONS} images={flat.Images} />
 
 			<div className='flex flex-col items-start gap-2 px-3 pb-3'>

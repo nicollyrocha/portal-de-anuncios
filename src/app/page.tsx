@@ -7,6 +7,13 @@ import { useEffect, useState } from 'react';
 import flats from '../../assets/flats.json';
 import { IFlats } from '@/interfaces/flats';
 import { EncontreUmLugar } from '@/components/encontreUmLugar';
+import { Preferencias } from '@/components/preferencias';
+import { AnuncieGratis } from '@/components/anuncieGratis';
+import { Estados } from '@/components/estados';
+import { Portugal } from '@/components/portugal';
+import { CantinhoAconchego } from '@/components/cantinhoAconchego';
+import { ParaCompradores } from '@/components/paraCompradores';
+import { FacaParte } from '@/components/facaParte';
 
 export default function Home() {
 	const [localizacao, setLocalizacao] = useState('Belo Horizonte');
@@ -31,7 +38,7 @@ export default function Home() {
 	numerosQuartos.sort((a, b) => a - b);
 
 	return (
-		<main className='flex min-h-screen flex-col items-center pb-10'>
+		<main className='flex min-h-screen flex-col lg:items-center pb-10 w-full gap-10 overflow-auto'>
 			<NavBar />
 			<Search
 				localizacao={localizacao}
@@ -41,11 +48,17 @@ export default function Home() {
 				tipoPropriedade={tipoPropriedade}
 				setTipoPropriedade={setTipoPropriedade}
 				numeroQuartos={numerosQuartos}
-				dadosParaBusca={dadosParaBusca}
 				setDadosParaBusca={setDadosParaBusca}
 			/>
 			<NovosAnuncios flats={arrayFlats} dadosParaBusca={dadosParaBusca} />
 			<EncontreUmLugar />
+			<Preferencias />
+			<AnuncieGratis />
+			<Estados />
+			<Portugal />
+			<CantinhoAconchego />
+			<ParaCompradores />
+			<FacaParte />
 		</main>
 	);
 }

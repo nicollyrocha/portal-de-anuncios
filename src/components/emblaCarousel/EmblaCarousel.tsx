@@ -38,7 +38,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 		<section className='embla w-full'>
 			<div className='embla__viewport w-full' ref={emblaRef}>
 				{images && (
-					<div className='embla__container w-[311px]'>
+					<div className='embla__container w-[311px] h-[198px]'>
 						{images.map((img, index) => (
 							<div className='embla__slide w-[311px] swiper-no-swiping' key={index}>
 								<Image

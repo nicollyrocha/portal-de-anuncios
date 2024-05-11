@@ -25,9 +25,9 @@ export const NovosAnuncios = ({
 	const swiperRef = useRef<SwiperType>();
 
 	return (
-		<div className='w-8/12 flex flex-col items-center mt-10 gap-5'>
-			<div className='flex justify-between items-center w-full'>
-				<div className='font-bold text-neutral-900 flex gap-1 text-[28px]'>
+		<div className='lg:w-8/12 flex flex-col items-center mt-10 gap-5 relative'>
+			<div className='flex flex-col lg:flex-row justify-between items-center w-full'>
+				<div className='font-bold text-neutral-900 flex flex-col lg:flex-row gap-1 text-[28px]'>
 					Novos anúncios em{' '}
 					<div className='text-[#ED672B] flex items-center'>
 						{dadosParaBusca.localizacao}
@@ -46,17 +46,20 @@ export const NovosAnuncios = ({
 					</button>
 					<button
 						onClick={() => swiperRef.current?.slideNext()}
-						ref={navigationNextRef}
 						className='rounded-full border border-solid border-neutral-400 flex items-center justify-center p-1'
 					>
 						<div className='material-icons text-neutral-500'>chevron_right</div>
 					</button>
 				</div>
 			</div>
+			<div className='flex gap-1 lg:self-start cursor-pointer items-center'>
+				<div className='text-blue-600'>Ver todos os imóveis</div>
+				<div className='material-icons text-blue-600' style={{ fontSize: '15px' }}>
+					open_in_new
+				</div>
+			</div>
 			<Swiper
 				preventInteractionOnTransition={true}
-				slidesPerView={4}
-				spaceBetween={25}
 				navigation={{
 					prevEl: navigationPrevRef.current,
 					nextEl: navigationNextRef.current,
@@ -67,6 +70,17 @@ export const NovosAnuncios = ({
 				modules={[Navigation]}
 				onBeforeInit={(swiper) => {
 					swiperRef.current = swiper;
+				}}
+				breakpoints={{
+					300: { slidesPerView: 1, spaceBetween: 0 },
+					640: {
+						slidesPerView: 3,
+						spaceBetween: 1,
+					},
+					1500: {
+						slidesPerView: 4,
+						spaceBetween: 25,
+					},
 				}}
 			>
 				{flats.filter(
@@ -86,7 +100,7 @@ export const NovosAnuncios = ({
 						)
 						.map((flat) => {
 							return (
-								<SwiperSlide key={flat.Title} className=''>
+								<SwiperSlide key={flat.Title} style={{ display: 'flex' }}>
 									<CardFlats flat={flat} />
 								</SwiperSlide>
 							);
