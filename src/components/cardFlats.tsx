@@ -1,7 +1,7 @@
 import { numberToCoin } from '@/functions/numberToCoin';
 import EmblaCarousel from './emblaCarousel/EmblaCarousel';
 import { EmblaOptionsType } from 'embla-carousel';
-import { IFlats } from '@/interfaces/flats';
+import { IFlats } from '@/types/flats';
 
 export const CardFlats = ({
 	flat,

@@ -26,10 +26,6 @@ const config: Config = {
 					'100%': { opacity: '0%' },
 				},
 			},
-			backgroundImage: {
-				'search-banner':
-					"url('https://proxis.com.br/wp-content/uploads/2019/02/mulher-sorrindo-no-parque.jpg')",
-			},
 		},
 	},
 	plugins: [],

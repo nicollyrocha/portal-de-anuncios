@@ -1,4 +1,4 @@
-import { IFlats } from '@/interfaces/flats';
+import { IFlats } from '@/types/flats';
 import { CardFlats } from './cardFlats';
 import { Navigation } from 'swiper/modules';
 import { Swiper as SwiperType } from 'swiper';
